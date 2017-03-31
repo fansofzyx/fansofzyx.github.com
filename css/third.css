@@ -1,0 +1,164 @@
+#First {
+	width:200px;
+	height:100px;
+	border:gray 1px solid;
+	border-bottom:transparent;
+}
+.oneone {
+	width:150px;
+	height:20px;
+	position: relative;
+	left:10px;
+	margin:10px;
+	border:black 1px solid;
+}
+#TB {
+	width:200px;
+	height:25%;
+	border-collapse: collapse;
+}
+td {
+	width:20%;
+	height:100%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: lightgray;
+	border-bottom:gray 1px solid;
+}
+#td11 {
+	border-bottom: transparent;
+	border-right: gray 1px solid;
+	background-color: white;
+}
+#Second {
+	width:200px;
+	border:gray 1px solid;
+	border-bottom:transparent;
+}
+#Second:after {
+	content:"";
+	position: relative;
+	left:200px;
+	top:0px;
+	display: block;
+	clear: both;
+}
+.box {
+	float:left;
+	background-color: orange;
+
+}
+#box1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 6px;
+    top: 18px;
+}
+#box3 {
+    width: 127px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 0;
+    background-color: white;
+    border: solid black 1px;
+}
+#box2 {
+    width: 127px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: solid black 1px;
+}
+#box4, #box5, #box6 {
+    position: relative;
+    top: 5px;
+    width: 48px;
+    height: 23px;
+    margin: 9px;
+    margin-bottom: 15px;
+}
+#Third {
+    width: 200px;
+    height: 40px;
+    border: darkgray 1px solid;
+    border-bottom: transparent;
+}
+#Third1 {
+	width:160px;
+	height:20px;
+	margin:10px;
+	margin-left:20px;
+	border: black solid 1px;
+}
+#Forth {
+	width:200px;
+	border:darkgray 1px solid;	
+}
+#Forth:after {
+	content:"";
+	display: block;
+	clear:both;
+}
+.ForthBox {
+	float:left;
+	width:39px;
+	height:79px;
+	background-color: white;
+	border-left: 1px darkgray solid;
+	border-bottom: 1px darkgray solid;
+
+}
+#B411 {
+	width:80px;
+	height: 158.4px;
+	border: 0;
+	border-bottom: 1px darkgray solid;
+}
+#FB31 {
+	width:40px;
+	border-left: 0;
+	border-bottom: 0;
+}
+#FB32 {
+	width:39px;
+	border-bottom: 0;
+}
+#FB33,#FB34,#FB35 {
+	width:39px;
+	border-bottom: 0;
+}
+.sp1 {
+    width: 70%;
+    height: 50%;
+    position: relative;
+    left: 6px;
+    top: 11px;
+    background-color: orange;
+}
+.sp1:before {
+    content: "XX";
+    font-size: 10px;
+    position: absolute;
+    left: 7px;
+    top: 40px;
+    display: block;
+}
+#sp11 {
+    width: 70%;
+    height: 50%;
+    position: relative;
+    left: 6px;
+    top: 11px;
+    background-color: orange;
+}
+#sp11:before {
+    content: "XX";
+    font-size: 10px;
+    position: absolute;
+    left: 19px;
+    top: 82px;
+    display: block;
+}
