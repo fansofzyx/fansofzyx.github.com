@@ -25,9 +25,20 @@ td {
 	background-color: lightgray;
 	border-bottom:gray 1px solid;
 }
-#td11 {
+#td11:hover {
 	border-bottom: transparent;
 	border-right: gray 1px solid;
+	background-color: white;
+}
+#td12:hover, #td13:hover,#td14:hover {
+	border-bottom: transparent;
+	border-right: gray 1px solid;
+	border-left: gray 1px solid;
+	background-color: white;
+}
+#td15:hover {
+	border-bottom: transparent;
+	border-left: gray 1px solid;
 	background-color: white;
 }
 #Second {
@@ -106,6 +117,7 @@ td {
 	float:left;
 	width:39px;
 	height:79px;
+	text-align: center;
 	background-color: white;
 	border-left: 1px darkgray solid;
 	border-bottom: 1px darkgray solid;
@@ -134,31 +146,24 @@ td {
     width: 70%;
     height: 50%;
     position: relative;
-    left: 6px;
-    top: 11px;
+   	margin:auto;
+   	top:10px;
     background-color: orange;
-}
-.sp1:before {
-    content: "XX";
-    font-size: 10px;
-    position: absolute;
-    left: 7px;
-    top: 40px;
-    display: block;
 }
 #sp11 {
     width: 70%;
     height: 50%;
     position: relative;
-    left: 6px;
-    top: 11px;
+    margin:auto;
+    margin-bottom: 2px;
+    top:20px;
     background-color: orange;
 }
-#sp11:before {
-    content: "XX";
-    font-size: 10px;
-    position: absolute;
-    left: 19px;
-    top: 82px;
-    display: block;
+a {
+	position: relative;
+	font-weight: 200;
+	top:100%;
+}
+a:hover,a:active {
+	font-weight: 400;
 }
