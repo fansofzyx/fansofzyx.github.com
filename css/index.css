@@ -19,18 +19,19 @@ body {
 	height:100%;
 	font-size: 70px;
 }
-#EX01 {
+.EX01 {
 	width:100px;
 	height:100px;
 	border-radius: 100px;
 	border: 1px solid  #00BCD4;
 	margin:auto;
+	margin-top: 10px;
 	text-align: center;
 	background-color: lightblue;
 	transition: border-radius 1s,width 1s;
 	-webkit-transition: border-radius 1s,width 1s;
 }
-#EX01:hover {
+.EX01:hover {
 	border-radius: 25px;
 	width:200px;
 }
