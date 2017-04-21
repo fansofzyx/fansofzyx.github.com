@@ -74,12 +74,11 @@
 }
 .row2ui-main-cnt {
 	box-sizing: border-box;
-	width: 100px;
-	height: 100px;
-	font-size: 100px;
-	margin:auto;
-	margin-top: 100px;
+	line-height: 300px;
+	font-size: 200px;
+	margin:0;
 	text-align: center;
+	color:lightgray;
 }
 .row3ui{
 	 width:500px;
@@ -110,8 +109,16 @@
 	width:100px;
 	border-left: 1px solid black;
 	text-align: center;
-	font-size: 20px;
 	vertical-align: middle;
+	vertical-align: middle;
+}
+.row3ui-main-left-tag {
+	line-height: 40px;
+	margin:0;
+}
+.row3ui-main-right {
+	line-height: 40px;
+	margin:0;
 }
 .row3ui-button {
 	width:80px;

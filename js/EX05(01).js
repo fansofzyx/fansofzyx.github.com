@@ -25,6 +25,7 @@ $('.row2ui-title-cnt').click(function(event) {
 $('.row3ui-main-right').on('click',remove);
 
 function remove(){
+	$(this).fadeOut('fast');
 	$(this).parent().remove();
 	for(var i=0;i<$('.row3ui-main-left').length;i++)
 		$('.row3ui-main-left').eq(i).html(i+1);
@@ -33,7 +34,7 @@ $('.row3ui-button').click(function(event) {
 	/* Act on the event */
 	var i=$('.row3ui-main').length;
 	i++;
-	var node="<div class='row3ui-main'><div class='row3ui-main-left'>"+i+"</div><div class='row3ui-main-right'>delete</div></div>";
-	$('.row3ui-button').before(node);
+	var node="<div class='row3ui-main'><div class='row3ui-main-left'>"+"<p class='row3ui-main-left-tag'>"+i+"</p>"+"</div><div class='row3ui-main-right'>"+"<p class='row3ui-main-left-tag'>"+"delete"+"</p>"+"</div></div>";
+	$('.row3ui-button').before(node).fadeIn('fast');
 	$('.row3ui-main-right:last').on('click',remove);
 });
