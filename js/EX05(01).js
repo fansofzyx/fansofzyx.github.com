@@ -25,16 +25,16 @@ $('.row2ui-title-cnt').click(function(event) {
 $('.row3ui-main-right').on('click',remove);
 
 function remove(){
-	$(this).fadeOut('fast');
-	$(this).parent().remove();
+	$(this).parent().fadeOut('slow',function(){$(this).remove();});
+	
 	for(var i=0;i<$('.row3ui-main-left').length;i++)
-		$('.row3ui-main-left').eq(i).html(i+1);
+		$('.row3ui-main-left-tag').eq(i).text(i+1);
 }
 $('.row3ui-button').click(function(event) {
 	/* Act on the event */
 	var i=$('.row3ui-main').length;
 	i++;
-	var node="<div class='row3ui-main'><div class='row3ui-main-left'>"+"<p class='row3ui-main-left-tag'>"+i+"</p>"+"</div><div class='row3ui-main-right'>"+"<p class='row3ui-main-left-tag'>"+"delete"+"</p>"+"</div></div>";
-	$('.row3ui-button').before(node).fadeIn('fast');
+	var node="<div class='row3ui-main'><div class='row3ui-main-left'>"+"<p class='row3ui-main-left-tag'>"+i+"</p>"+"</div><div class='row3ui-main-right'>"+"<p class='row3ui-main-right-tag'>"+"delete"+"</p>"+"</div></div>";
+	$('.row3ui-button').before(node);
 	$('.row3ui-main-right:last').on('click',remove);
 });
