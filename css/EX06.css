@@ -276,6 +276,9 @@ w1-head-bus:after {
 .ui-box5-cnt-row2-cnt-title span ,.ui-box7-cnt-row2-cnt-title span {
 	color: #6BA8C9;
 }
+.ui-box5-cnt-row2-cnt-title span {
+	text-decoration: underline;
+}
 .ui-box5-cnt-row2-cnt-blank,.ui-box5-cnt-row2-cnt-cost,.ui-box5-cnt-row2-cnt-seat,.ui-box5-cnt-row2-cnt-dist,.ui-box7-cnt-row2-cnt-blank,.ui-box7-cnt-row2-cnt-cost{
 	width: 75px;
 	height: 100%;
