@@ -287,7 +287,7 @@ w1-head-bus:after {
 .ui-box5-cnt-row2-cnt-cost,.ui-box7-cnt-row2-cnt-cost{
 	font-weight: bold;
 }
-.ui-box5-cnt-row2-cnt-dist{
+.ui-box5-cnt-row2-cnt-dist,#ui-box7-cnt-row2-cnt-rightblank{
 	border: 0;
 }
 .ui-box5-cnt-row2-cnt-seat{
