@@ -1,0 +1,366 @@
+
+#title {
+	background: #00C2AE;
+}
+#title-cnt-option{
+	height:40px;
+	padding: 0px;
+}
+.title-cnt-option-cnt {
+	width:55%;
+	height: 100%;
+	margin-left:22.5%;
+	font-size:12px;
+	line-height: 40px;
+	text-align: center;
+	background-color:rgba(0,194,174,0.5);
+	color:white;
+	font-weight: normal;
+}
+#title-cnt-option-nation {
+	font-size: 10px;
+}
+#title-cnt-search {
+	height:30px;
+	line-height: 30px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	padding-left: 10px;
+	color:white;
+	background: rgb(0,165,148);
+}
+#title-cnt-search span {
+	color:#00D3C4;
+	font-size: 13px;
+}
+#title-cnt-user {
+	margin:0px;
+	margin-top: 8px;
+	padding: 0px;
+	text-align:center;
+	color:white;
+}
+#usericon {
+	margin:auto;
+	margin-top:5px;
+	margin-left: 10px;
+}
+#usericon:after {
+	display: inline-block;
+	font-size: 8px;
+	font-weight: bold;
+	content:"XX";
+	position: relative;
+	top:12px;
+	left:-12px;
+}
+#menu {
+	text-align: center;
+}
+#menu-cnt11,#menu-cnt12,#menu-cnt13,#menu-cnt14,#menu-cnt21,#menu-cnt22,#menu-cnt23,#menu-cnt24 {
+	height:37px;
+	width: 37px;
+	margin-top:10px;
+	margin-bottom: 25px;
+	background-color: orange;
+}
+#menu-cnt21,#menu-cnt22,#menu-cnt23,#menu-cnt24 {
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+#menu-cnt11 {
+	background-color: #FF8905;
+}
+#menu-cnt12 {
+	background-color: #FF6640;
+}
+#menu-cnt13 {
+	background-color: #7089F6;
+}
+#menu-cnt14 {
+	background-color: #FF8905;
+}
+#menu-cnt21 {
+	background-color: #00CDF0;
+}
+#menu-cnt22 {
+	background-color: #FFBB53;
+}
+#menu-cnt23 {
+	background-color: #00CDF0;
+}
+#menu-cnt24 {
+	background-color: #FF8905;
+}
+.menu-words {
+	color:black;
+	position: relative;
+	top:-20px;
+	color: #9A9A9A;
+	font-size: 10px;
+}
+#partion {
+	height:10px;
+	background-color: #F1F0EE;
+	border:1px solid #E4DFD6;
+}
+#sale1 {
+	/*height:100px;*/
+	text-align: left;
+	border-right: 1px solid #E5DFD6;
+}
+#sale1-title,#sale2-title,#sale3-title,#sale4-title,#speacil-title {
+	color: #00A300;
+	text-shadow: 0px,0px,2px,#9AD78F;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#speacil-title {
+	color:#FF633D;
+	text-shadow: 0px,0px,2px,#FFD0C5;
+}
+#sale2-title {
+	color:#FF4B14;
+	text-shadow: 0px,0px,2px,#FFA78D;
+}
+#sale3-title {
+	 color:#FF47A7;
+	 text-shadow: #FF91CA;
+}
+#sale4-title {
+	color:#FF8602;
+	text-shadow: 0px,0px,2px,#FF9E2E;
+}
+#sale1-discribe, #sale2-discribe,#sale4-discribe,#speacil-describe{
+	color: #AFAFAF;
+	font-size: 10px;
+}
+#sale4-clock {
+	display: inline-block;
+	background-color:#4B4B4B;
+	color:white;
+	font-size: 13px;
+	border-radius: 3px;
+}
+#sale1-img {
+	height:80px;
+	width: 80px;
+	margin-bottom: 20px;
+	background: #666666;
+}
+#sale2-img {
+	width: 50px;
+	height: 50px;
+	background: #666666;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:25%;
+	margin-right: 25%;
+
+}
+#sale3-img {
+	width:40px;
+	height:40px;
+	margin-left: 25%;
+	margin-right: 25%;
+	background: #666666;
+}
+#subsale2 {
+	text-align: center;
+}
+#sale2,#subsale2,#sale1 {
+	margin-top:10px;
+}
+#sale1,#sale3,#sale4 {
+	margin-bottom: 10px;
+}
+#sale2,#sale3,#sale4,#subsale2{
+	height:75px;
+}
+#sale2,#subsale2 {
+	border-bottom: 1px solid #E5DFD6;
+}
+#sale3 {
+	border-right:1px solid #E5DFD6;
+}
+#speacil {
+	/*height:50px;*/
+}
+#subspeacil-img {
+	width: 50px;
+	height:50px;
+	margin-right:25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #666666;
+	position: relative;
+}
+#subspeacil {
+	border-right:1px solid #E4DFD6;
+}
+.shop-topic-cnt {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+#shop1 {
+	margin-bottom: 0px;
+	transform: translate(0px,-25px);
+}
+#shop2 {
+	margin-bottom: 0px;
+	transform: translate(0px,-50px);
+}
+#shop3 {
+	margin-bottom: 0px;
+	transform: translate(0px,-75px);
+}
+#shop-main {
+	height: 90px;
+	border-top:1px solid #E5DFD6;
+	padding: 0px;
+	margin-left: 5px;
+}
+#shop-main:after {
+	content:"XXX";
+	display: inline-block; 
+	float: left;
+	position: relative;
+	top:-87px;
+	left:0px;
+	font-size: 12px;
+	transform: rotate(-45deg);
+	color:rgba(0,0,0,0.5);
+	color: white;
+
+
+}
+#shop-imgbox{
+	padding: 0px;
+	height: 90px;
+	
+}
+.shop-img {
+	width: 70px;
+	height:70px;
+	margin:0;
+	margin-top:10px;
+	margin-bottom: 10px;
+	background: #666666;
+	clear:both;
+}
+#shop-imgbox:after {
+	content:"";
+	display: block;
+	position: relative;
+	color:black;
+	top: -100px;
+    left: -20px;
+	width: 40px;
+	height:40px;
+	border:10px solid transparent;
+	border-right:10px solid #00C9B8 ;
+	background: transparent;
+	transform: rotate(45deg);
+}
+.shop-words {
+	display: flex;
+	flex-direction: column;
+
+}
+.shop-imgtag {
+	transform: rotate(-45deg);	
+	position: relative;
+	font-size: 10px;
+	color: blue;
+	top:0px;
+	left:0px;																		
+	margin:0px;
+}
+#shop-intro {
+	padding: 0px;
+	margin-left:0px;
+}
+.shop-tiitle {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size:15px;
+	color: #797979;
+}
+.shop-describe {
+	margin-bottom: 10px;
+	font-size: 10px;
+	color:#C8C8C8;
+	
+}
+.shop-price {
+	color:#00C9B8;
+	font-size: 20px;
+	font-weight: bold;
+}
+.shop-price-unit {
+	font-size: 15px;
+	font-weight: normal;
+}
+.shop-price:after {
+	content:"多优惠+";
+	font-size: 10px;
+	display:inline-block;
+	width:40px;
+	height:18px;
+	margin-left:10px;
+	line-height: 18px;
+	color:#FFC062;
+	border: 1px solid #FFC062; 
+	border-radius: 2px;
+}
+.shop-output {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.shop-output {
+	height:100px;
+	width: 100%;
+}
+.shop-output-blank {
+	flex-grow: 2;
+}
+.shop-output-cnt {
+	color:#B7B7B7;
+	font-size:8px;
+	text-align: right;
+	margin-bottom: 20px;
+}
+#end {
+	
+}
+#end-line {
+
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+
+}
+.nextpage {
+	line-height: 50px;
+	background-color:rgb(143,198,234);
+	color:#06B3D2;
+	transform: translate(0px,-100px);
+}
+.nextpage-tag {
+	line-height: 40px;
+	width: 40px;
+	margin:0px;
+	padding: 0px;
+	position: relative;
+	top:-169px;
+	left:88%;
+	color:#06B3D2;
+	transform: rotate(-90deg);
+
+}
