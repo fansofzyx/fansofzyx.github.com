@@ -311,7 +311,7 @@
 	font-weight: normal;
 }
 .shop-price:after {
-	content:"多优惠 +";
+	content:"多优惠+";
 	font-size: 10px;
 	display:inline-block;
 	width:40px;
