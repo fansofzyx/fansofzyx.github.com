@@ -130,6 +130,9 @@
 	 color:#FF47A7;
 	 text-shadow: #FF91CA;
 }
+.sale3-img-box {
+	/*margin: auto;*/
+}
 #sale4-title {
 	color:#FF8602;
 	text-shadow: 0px,0px,2px,#FF9E2E;
@@ -165,9 +168,9 @@
 #sale3-img {
 	width:40px;
 	height:40px;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 50%;
 	background: #666666;
+	transform: translate(-50%,0);
 }
 #subsale2 {
 	text-align: center;
@@ -232,7 +235,7 @@
 	height: 90px;
 	
 }
-.shop-img-box {
+.shop-img-box ,.shop-img-lastbox{
 	width: 70px;
 	height:70px;
 	margin-top: 15px;
@@ -301,7 +304,7 @@
 	color:#C8C8C8;
 	
 }
-.shop-price {
+.shop-price,.shop-nomalprice{
 	color:#00C9B8;
 	font-size: 20px;
 	font-weight: bold;
@@ -310,12 +313,23 @@
 	font-size: 15px;
 	font-weight: normal;
 }
+.shop-nomalprice:after {
+	
+	content:"门市价XX元";
+	color:#9A9A9A;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: normal;
+	transform: translate(10px,0px);
+	
+}
 .shop-price:after {
 	content:"多优惠+";
 	font-size: 10px;
 	display:inline-block;
 	width:40px;
 	height:18px;
+	font-size:10px;
 	margin-left:10px;
 	line-height: 18px;
 	color:#FFC062;
