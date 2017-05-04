@@ -6,6 +6,9 @@
 	padding-left: 120px;
 	padding-right:120px;
 }
+.listmenu {
+	z-index:10;
+}
 #headline-home-box,#headline-speech-box,#headline-read-box,#headline-create-box{
 	
 	text-align: center;
@@ -77,7 +80,8 @@
 }
 .rightbutton {
 	height:25px;
-	width:25px;
+	width:30px;
+	font-size: 10px;
 }
 .mainmovie {
 	height:280px;
