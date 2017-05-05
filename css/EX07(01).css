@@ -9,6 +9,9 @@
 .listmenu {
 	z-index:10;
 }
+.preview-title {
+	margin-left:14px;
+}
 #headline-home-box,#headline-speech-box,#headline-read-box,#headline-create-box{
 	
 	text-align: center;
@@ -147,6 +150,7 @@
 	width: 40px;
 	height: 20px;
 	margin-top: 10px;
+	margin-left: 1px;
 	text-align: center;
 	line-height: 20px;
 	color: white;
@@ -154,8 +158,12 @@
 }
 .PPT-title ,.vedio-title{
 	height:30px;
+	margin-left: 1px;
 	line-height: 30px;
 	margin-bottom: 0px;
+}
+.PPT-box .people-read {
+	margin-left: 1px;
 }
 .PPT-box .people-read, .PPT-box .people-discuss ,.video-box .people-read,.video-box .people-discuss{
 	margin-top: 0px;
@@ -353,9 +361,13 @@
 }
 .preview-words {
 	color:#9A9A9A;
+	margin-left: 14px;
 }
 #preview .people-read,#preview .people-discuss {
 	margin-top: 0px;
+}
+#preview .people-read {
+	margin-left: 14px;
 }
 .getmore {
 	margin:auto;
