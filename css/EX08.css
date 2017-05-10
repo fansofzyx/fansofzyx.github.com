@@ -1,0 +1,20 @@
+body,html,#myMap {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#results {
+	height: 550px;
+	width: 250px;
+	position: absolute;
+	top:30px;
+	right: 0px;
+}
+#route {
+	width: 300px;
+	height: 500px;
+	overflow: auto;
+	position: absolute;
+	top:30px;
+	left: 30px;
+}
