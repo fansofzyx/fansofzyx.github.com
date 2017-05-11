@@ -33,9 +33,9 @@ map.addEventListener("rightclick",function(e)
 })
 var points = new Array();
 var str = new Array();
-points[0] = new BMap.Point(120.02508, 30.290491); 
+points[0] = new BMap.Point(120.021982,30.293139); 
 str[0]="阿里巴巴商学院";
-points[1] = new BMap.Point(120.020173,30.289454); 
+points[1] = new BMap.Point(120.014252,30.294557); 
 str[1]="杭师大篮球场";
 points[2] = new BMap.Point(120.016232,30.294802); 
 str[2]="博文苑3号楼";
